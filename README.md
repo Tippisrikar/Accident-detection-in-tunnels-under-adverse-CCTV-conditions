@@ -42,26 +42,26 @@ This project aims to detect **accidents in tunnel environments** using **CCTV fo
 
 
 ## requirements.txt file
-# Core Deep Learning
+### Core Deep Learning
 torch>=1.12.0
 torchvision>=0.13.0
 
-# Data and Model Evaluation
+### Data and Model Evaluation
 pycocotools>=2.0.6
 
-# Image and Video Processing
+### Image and Video Processing
 opencv-python>=4.5.5.64
 Pillow>=9.0.1
 matplotlib>=3.5.1
 numpy>=1.21.2
 
-# Utilities
+### Utilities
 tqdm>=4.64.0
 
-# Optional (for COCO evaluation on Windows)
+### Optional (for COCO evaluation on Windows)
 pywin32>=305
 
-# If using Jupyter Notebooks (optional)
+### If using Jupyter Notebooks (optional)
 ipykernel>=6.9.1
 
 ## ✅ How to Use
