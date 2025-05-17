@@ -23,3 +23,18 @@ This project aims to detect **accidents in tunnel environments** using **CCTV fo
 - **Classes**: Accident, Fire, Smoke (label-mapped to IDs 1, 2, 5)
 - **Input Format**: COCO-style `.json` annotations (exported from Roboflow)
 
+---
+
+## 🖥 System Requirements
+
+| Component       | Minimum                            | Recommended                          |
+|----------------|-------------------------------------|--------------------------------------|
+| OS             | Windows 10 / Ubuntu 20.04           | Windows 11 / Ubuntu 22.04            |
+| GPU            | NVIDIA GTX 1050 Ti (4GB VRAM)       | NVIDIA RTX 3060 / 3070 (8GB+ VRAM)   |
+| CPU            | Intel i5 8th Gen / AMD Ryzen 5      | Intel i7 10th Gen+ / Ryzen 7+        |
+| RAM            | 8 GB                                | 16 GB or more                        |
+| Disk Space     | 5 GB (for dataset + model files)    | 10 GB+                               |
+| Python         | 3.8 or later                        | 3.10 (recommended)                   |
+| CUDA           | Optional                            | CUDA 11.x+ (for GPU acceleration)    |
+
+> **Note**: For training or video inference, a GPU is strongly recommended for faster processing.
